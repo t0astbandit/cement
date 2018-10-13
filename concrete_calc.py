@@ -2,18 +2,20 @@
 import math
 
 """ According to https://www.convert-me.com/en/bb/viewtopic.php?t=4226 
-an 80 lbs of concrete is 0.6 cubic yards"""
+an 80 lbs of concrete is 0.6 cubic feet"""
 
 # define cubic inches in one bag of 80lb cement
-# cubic feet in one bag
-a = 27*0.6
+# cubic inches in one cubic foot
+a = 12**3
+print(a)
 #cubic inches in one bag
-EightyLbBag = a * 12
+EightyLbBag = .6 * a
+print(EightyLbBag)
 
 # get the area in square inches
 length = input("Length in feet:  ")
 width = input("Width in feet:  ")
-area = (length * width) * 12
+area = (length * 12) * (width * 12) 
 print "Area in square inches ", area
 
 # get the depth in inches
