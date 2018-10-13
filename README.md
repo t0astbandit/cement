@@ -1,3 +1,3 @@
-This scipt calcluates how many 80lb bags of cement are required to fill a volume
+This script calculates how many 80lb bags of cement are required to fill a volume
 
-Tested in python 2.7
+Tested in python 3.6
