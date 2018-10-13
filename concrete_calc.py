@@ -7,10 +7,8 @@ an 80 lbs of concrete is 0.6 cubic feet"""
 # define cubic inches in one bag of 80lb cement
 # cubic inches in one cubic foot
 a = 12**3
-print(a)
-#cubic inches in one bag
+# cubic inches in one bag
 EightyLbBag = .6 * a
-print(EightyLbBag)
 
 # get the area in square inches
 length = input("Length in feet:  ")
